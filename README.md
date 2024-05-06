@@ -2,7 +2,7 @@
 
 © DSA2024. Apache License 2.0.
 
-**Authors**: Yuri Njathi, ...,
+**Authors**: Yuri Njathi,... ,
 
 **Reviewers** : ...
 
@@ -10,7 +10,10 @@
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
 
-Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `zero-shot` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training 
+Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `zero-shot` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
+
+Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a health dataset ! [INSERT] to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
+
 
 ![cls-det-seg](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/2692c40b-591e-4a77-b700-04d51e055b71)
 
@@ -25,6 +28,17 @@ Level: `Beginner`
 
 **Prerequisites:**
 - Basic knowledge of [Python Programming](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+
+
+
+A. Image Classification with YOLOv8
+
+
+
+
+B. Image Object Detection with YOLOv8
+
+C. Image Instance Segementation with YOLOv8
 
 <img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5218314b-a836-499c-b5a9-1b38bd9b75a4" alt="dsalogo" width="200"/>
 <img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5cfd6bdc-c1e3-437f-ac65-76e76f38a8bb" alt="marconi_mak" width="200"/>
