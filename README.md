@@ -24,7 +24,7 @@ Content: `Computer Vision`, `YOLOv8`
 Level: `Beginner`
 
 **Learning Objectives:**
-- Intro
+- Introduce you to end-to-end machine learning.
 
 **Prerequisites:**
 - Basic knowledge of [Python Programming](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
@@ -34,10 +34,10 @@ Level: `Beginner`
 A. Image Classification with YOLOv8
 
 Here we shall utilize DSAIL-Porini images to obtain classification predictions and evaluate the model's performance. Luckily, the dataset authors have provided the images and classifications.
-Here we'll use YOLOv8-cls to obtain zero-shot predictions for Zebra, Impala, Waterbuck, Warthog, BushBuck and Other classes. 
+Here we'll use YOLOv8-cls to obtain zero-shot predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
 
 Steps
-1. Obtain 600 images from DSAIL-Porini, 100 for each class.
+1. Obtain 300 images from DSAIL-Porini, 100 for each class.
 2. Conduct and log ZeroShot Image Classification and performance [Open in Colab link]
 3. Annotate some images for FineTuning using [roboflow](https://app.roboflow.com/)
 4. Export dataset to [HuggingFace](https://huggingface.co/).
