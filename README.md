@@ -33,7 +33,18 @@ Level: `Beginner`
 
 A. Image Classification with YOLOv8
 
+Here we shall utilize DSAIL-Porini images to obtain classification predictions and evaluate the model's performance. Luckily, the dataset authors have provided the images and classifications.
+Here we'll use YOLOv8-cls to obtain zero-shot predictions for Zebra, Impala, Waterbuck, Warthog, BushBuck and Other classes. 
 
+Steps
+1. Obtain 600 images from DSAIL-Porini, 100 for each class.
+2. Conduct and log ZeroShot Image Classification and performance [Open in Colab link]
+3. Annotate some images for FineTuning using [roboflow](https://app.roboflow.com/)
+4. Export dataset to [HuggingFace](https://huggingface.co/).
+5. Train YOLOv8-cls model and export model to **Huggingface**.
+6. Conduct and log Finetuned Image Classification and performance [Open in Colab link]
+7. ReCap
+8. Practice Work
 
 
 B. Image Object Detection with YOLOv8
