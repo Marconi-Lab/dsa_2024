@@ -2,10 +2,6 @@
 
 © DSA2024. Apache License 2.0.
 
-**Authors**: Yuri Njathi,... ,
-
-**Reviewers** : ...
-
 **Introduction**
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
