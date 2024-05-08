@@ -10,7 +10,7 @@
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
 
-Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `zero-shot` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
+Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
 
 Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a health dataset ! [INSERT] to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
 
@@ -39,14 +39,15 @@ Here we shall utilize DSAIL-Porini images to obtain classification predictions a
 Here we'll use YOLOv8-cls to obtain zero-shot predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
 
 Steps
-1. Obtain 600 images from DSAIL-Porini, 100 for each class.
-2. Conduct and log ZeroShot Image Classification and performance [Open in Colab link]
-3. Annotate some images for FineTuning using [roboflow](https://app.roboflow.com/)
-4. Export dataset to [HuggingFace](https://huggingface.co/).
-5. Train YOLOv8-cls model and export model to **Huggingface**.
-6. Conduct and log Finetuned Image Classification and performance [Open in Colab link]
-7. ReCap
-8. Practice Work
+1. Obtain 600 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 200 for each of the 3 classes.
+2. Image Classification using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
+3. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
+4. Get url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
+5. Train YOLOv8-cls model for Image Classification <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024-yolov8-classification-training.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and export model to [**Huggingface**](https://huggingface.co/). 
+6. ReCAP: above we have finetuned `yolov8-cls` for classifying between Zebra, Impala and Other classes.
+7. Practice Work
+   - Try this process on a dataset of your choice.
+   - Differentiate zero-shot, one-shot and few-shot training.
 <!-- #endregion -->
 
 B. Image Object Detection with YOLOv8
