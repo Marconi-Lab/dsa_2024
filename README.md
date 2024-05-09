@@ -6,7 +6,7 @@
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
 
-Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of computer vision, these are : `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
+Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 3 variations of computer vision, these are : `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
 
 Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a health dataset ! [INSERT] to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
 
@@ -35,10 +35,10 @@ A. Image Classification with YOLOv8
 Here we shall utilize DSAIL-Porini images to obtain classification predictions and evaluate the model's performance. Luckily, the dataset authors have provided the images and classifications. I'll take you through how to annotate using roboflow.
 
 
-Here we'll use YOLOv8-cls to obtain zero-shot predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
+Here we'll use YOLOv8-cls to obtain predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
 
 Steps
-1. Obtain 600 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 200 for each of the 3 classes.
+1. Upload 90 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 30 images per class, [subdataset]().
 2. Image Classification using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
 3. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
 4. Get url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
