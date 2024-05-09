@@ -6,7 +6,7 @@
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
 
-Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
+Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 2 variations of computer vision, these are : `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
 
 Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a health dataset ! [INSERT] to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
 
@@ -24,6 +24,9 @@ Level: `Beginner`
 
 **Prerequisites:**
 - Basic knowledge of [Python Programming](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)
+- A [Google Colab](https://colab.research.google.com/) account
+- A [roboflow](https://app.roboflow.com/login) account
+- A [Hugging Face](https://huggingface.co/join)  account
 
 
 <!-- #region -->
