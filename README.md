@@ -60,10 +60,9 @@ Steps
 4. Upload your unzipped file
 5. Save you dataset but apply pre-processing and augmentations of your choice from the list provided.
 6. You can export your dataset again or us the raw url of the dataset.
-
-<img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5218314b-a836-499c-b5a9-1b38bd9b75a4" alt="dsalogo" width="200"/>
-<img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5cfd6bdc-c1e3-437f-ac65-76e76f38a8bb" alt="marconi_mak" width="200"/>
-<img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/cfdf77dc-22de-40de-a31d-701e106b2a53" alt="dsaillogo_white" width="200"/>
+7. Train YOLOv8-seg model for Segmentation  <a target="_blank" href="https://colab.research.google.com/drive/1xssxI7c9fvIi1K0h_HqeT_U-BsnrMRSL?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+8. In the notebook shared above, we will have finetuned 'yolov8-seg' to carry out instance segmentation for normal vs fractured bones.
+9. In the notebook, there are some exercises for you to carry out so as to familiarise yourself more with YOLOv8.
 
 
 **References**
@@ -71,6 +70,7 @@ Steps
 1. [IBM Computer Vision](https://www.ibm.com/topics/computer-vision)
 2. [HuggingFace CV examples](https://huggingface.co/datasets)
 3. [Roboflow "What is Zero-Shot Classification"](https://blog.roboflow.com/what-is-zero-shot-classification/#:~:text=Zero%2Dshot%20classification%20models%20are,CLIP)
+4. [How to label data for YOLOv5 Instance Segmentation training](https://roboflow.com/how-to-label/yolov5-segmentation)
 
 **Inspiration**
 
