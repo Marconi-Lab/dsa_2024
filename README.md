@@ -44,7 +44,8 @@ From the test image you can see that the pretrained model has a low confidence s
 
 2. Download the [zipped dataset]() and unzip
 ![IMAGE]
-3. Login to roboflow and create a project
+3. Login to roboflow and create a single-label classification project
+![classification_annotation_roboflow](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/0732fdf1-07d1-453d-a9d7-5beb9367321b)
 
 4. Upload 90 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 30 images per class, [subdataset]().
 5. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
