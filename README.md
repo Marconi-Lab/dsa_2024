@@ -42,8 +42,8 @@ Steps
 
 From the test image you can see that the pretrained model has a low confidence score, we'll rectify this by finetuning using annotated data.
 
-2. Download the [zipped dataset]() and unzip
-![IMAGE]
+2. Download the [zipped dataset](https://github.com/Marconi-Lab/dsa_2024/blob/main/images-cls.zip) and unzip
+
 3. Login to roboflow and create a single-label classification project
 ![classification_annotation_roboflow](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/0732fdf1-07d1-453d-a9d7-5beb9367321b)
 
