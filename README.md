@@ -38,15 +38,22 @@ Here we shall utilize DSAIL-Porini images to obtain classification predictions a
 Here we'll use YOLOv8-cls to obtain predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
 
 Steps
-1. Upload 90 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 30 images per class, [subdataset]().
-2. Image Classification using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
-3. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
-4. Get url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
-5. Train YOLOv8-cls model for Image Classification <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024-yolov8-classification-training.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and export model to [**Huggingface**](https://huggingface.co/). 
-6. ReCAP: above we have finetuned `yolov8-cls` for classifying between Zebra, Impala and Other classes.
-7. Practice Work
+1. We'll first practice with Image Classification using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.
+From the test image you can see that the pretrained model has a low confidence score, we'll rectify this by finetuning using annotated data.
+
+2. Download the [zipped dataset]() and unzip
+![IMAGE]
+3. Login to roboflow and create a project
+
+4. Upload 90 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 30 images per class, [subdataset]().
+5. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
+6. Get url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
+7. Train YOLOv8-cls model for Image Classification <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024-yolov8-classification-training.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and export model to [**Huggingface**](https://huggingface.co/). 
+8. ReCAP: above we have finetuned `yolov8-cls` for classifying between Zebra, Impala and Other classes.
+9. Practice Work
    - Try this process on a dataset of your choice.
    - Differentiate zero-shot, one-shot and few-shot training.
+
 <!-- #endregion -->
 
 ### B. Image Object Detection with YOLOv8
