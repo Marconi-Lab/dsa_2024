@@ -54,7 +54,9 @@ Steps
 ### C. Image Instance Segementation with YOLOv8
 
 For the segmentation task, we will use an open source [xray dataset](https://universe.roboflow.com/bonefrac/seg-2-full/dataset/10) from roboflow.
-Steps
+
+**Steps**
+
 1. Download the dataset as a zipped file in YOLOv8 format 
 2. Unzip the file
 3. Log in to Roboflow and create a project
