@@ -47,13 +47,20 @@ From the test image you can see that the pretrained model has a low confidence s
 3. Login to roboflow and create a single-label classification project
 ![classification_annotation_roboflow](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/0732fdf1-07d1-453d-a9d7-5beb9367321b)
 
-4. Upload 90 images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6), 30 images per class, [subdataset]().
-5. Annotate images for FineTuning using [roboflow](https://app.roboflow.com/)
-6. Get url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
-7. Train YOLOv8-cls model for Image Classification <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/yuri/dsa2024-yolov8-classification-training.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and export model to [**Huggingface**](https://huggingface.co/). 
-8. ReCAP: above we have finetuned `yolov8-cls` for classifying between Zebra, Impala and Other classes.
-9. Practice Work
-   - Try this process on a dataset of your choice.
+4. Upload the sample images from [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) on roboflow, then save and continue.
+![Screenshot 2024-04-28 135625](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/2f1ff7d7-304b-486e-9dd4-11a9b288bd67)
+
+6. Click annotate then annotate images for FineTuning using [roboflow](https://app.roboflow.com/) ... annotate with the classes you see fit. 
+![Screenshot 2024-04-28 140838](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/8423ffd0-a378-47c1-907d-c0b6837daea3)
+
+7. Get raw url to annotated [roboflow dataset](https://app.roboflow.com/ds/U8eETZqOAo?key=9AAIElFVFm).
+![get-raw-url](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/60868580-6756-4798-91c1-c21ecb9c157f)
+
+8. Train YOLOv8-cls model for Image Classification <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024-yolov8-classification-training.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and you can export model to [**Huggingface**](https://huggingface.co/) (optional). 
+9. ReCAP: above we have finetuned `yolov8-cls` for classifying between Zebra, Impala and Other classes.
+10. Practice Work
+   - Try this process on your annotated dataset.
    - Differentiate zero-shot, one-shot and few-shot training.
 
 <!-- #endregion -->
