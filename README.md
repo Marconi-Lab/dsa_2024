@@ -38,7 +38,7 @@ Here we shall utilize DSAIL-Porini images to obtain classification predictions a
 Here we'll use YOLOv8-cls to obtain predictions for Zebra, Impala and Other classes. We're only going to use images that have a single species of animal and the animals are detectable by YOLOv8-det.
 
 Steps
-1. We'll first practice with Image Classification using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+1. We'll first practice with Image Classification prediction using pretrained `yolov8-cls` model <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_classification_zero_shot.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 From the test image you can see that the pretrained model has a low confidence score, we'll rectify this by finetuning using annotated data.
 
