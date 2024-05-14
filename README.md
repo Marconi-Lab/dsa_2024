@@ -51,6 +51,16 @@ Steps
 
 ### B. Image Object Detection with YOLOv8
 
+In the object detection task, we will finetune a YOLOv8 detection model on a camera trap dataset to obtain predictions and characterise the model.
+
+**Steps**
+
+1. Download a pre-annotated subset of the DSAIL-Porini dataset available on Roboflow.
+2. Perform an exploratory data analysis of the dataset using [Fiftyone](https://docs.voxel51.com/) and [Data-Gradients](https://github.com/Deci-AI/data-gradients/)
+3. Try out the [YOLO-World](https://docs.ultralytics.com/models/yolo-world/) Zero-shot open vocabulary detection model on the dataset.
+4. Fine tune an Ultralytics YOLOv8 model on the dataset
+5. Along the way, there are some exercises which you'll do such as trying out the [`Grounding Dino`](https://github.com/IDEA-Research/GroundingDINO) zero-shot model and annotating a few images to finetune a YOLOv8 model with your own version of the dataset.
+   
 ### C. Image Instance Segementation with YOLOv8
 
 For the segmentation task, we will use an open source [xray dataset](https://universe.roboflow.com/bonefrac/seg-2-full/dataset/10) from roboflow.
