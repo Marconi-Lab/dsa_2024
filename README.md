@@ -8,7 +8,7 @@ As a branch of artificial intelligence, computer vision utilizes machine learnin
 
 Computer Vision is a broad concept. It covers more than 15 different applications [[2]](https://huggingface.co/datasets). Here we will look at 3 variations of computer vision, these are : `Image Classification`,`Object Detection` and `Instance Segmentation`. The variations will be `pretrained` and `fine-tuned` prediction. Zero-Shot classification is use of pretrained models to obtain predictions without training.
 
-Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a health dataset ! [INSERT] to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
+Here we will use [DSAIL-Porini](https://data.mendeley.com/datasets/6mhrhn7rxc/6) and a bone xray dataset to go through a typical end-to-end machine learning workflow for classification, detection and segementation.
 
 
 ![cls-det-seg](https://github.com/Marconi-Lab/dsa_2024/assets/54037190/2692c40b-591e-4a77-b700-04d51e055b71)
@@ -52,6 +52,14 @@ Steps
 B. Image Object Detection with YOLOv8
 
 C. Image Instance Segementation with YOLOv8
+For the segmentation task, we will use an open source [xray dataset](https://universe.roboflow.com/bonefrac/seg-2-full/dataset/10) from roboflow.
+Steps
+1. Download the dataset as a zipped file in YOLOv8 format 
+2. Unzip the file
+3. Log in to Roboflow and create a project
+4. Upload your unzipped file
+5. Save you dataset but apply pre-processing and augmentations of your choice from the list provided.
+6. You can export your dataset again or us the raw url of the dataset.
 
 <img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5218314b-a836-499c-b5a9-1b38bd9b75a4" alt="dsalogo" width="200"/>
 <img src="https://github.com/Marconi-Lab/dsa_2024/assets/54037190/5cfd6bdc-c1e3-437f-ac65-76e76f38a8bb" alt="marconi_mak" width="200"/>
