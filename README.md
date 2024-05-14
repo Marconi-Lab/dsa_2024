@@ -30,7 +30,7 @@ Level: `Beginner`
 
 
 <!-- #region -->
-A. Image Classification with YOLOv8
+### A. Image Classification with YOLOv8
 
 Here we shall utilize DSAIL-Porini images to obtain classification predictions and evaluate the model's performance. Luckily, the dataset authors have provided the images and classifications. I'll take you through how to annotate using roboflow.
 
@@ -49,9 +49,10 @@ Steps
    - Differentiate zero-shot, one-shot and few-shot training.
 <!-- #endregion -->
 
-B. Image Object Detection with YOLOv8
+### B. Image Object Detection with YOLOv8
 
-C. Image Instance Segementation with YOLOv8
+### C. Image Instance Segementation with YOLOv8
+
 For the segmentation task, we will use an open source [xray dataset](https://universe.roboflow.com/bonefrac/seg-2-full/dataset/10) from roboflow.
 Steps
 1. Download the dataset as a zipped file in YOLOv8 format 
