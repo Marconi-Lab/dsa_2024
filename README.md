@@ -64,7 +64,7 @@ In the object detection task, we will finetune a YOLOv8 detection model on a cam
 
 **Steps**
 
-1. Download a pre-annotated subset of the DSAIL-Porini dataset available on Roboflow.
+1. Download a pre-annotated subset of the DSAIL-Porini dataset available on [Roboflow](https://universe.roboflow.com/mltowardsobb/dsail-porini-detection-v2).
 2. Perform an exploratory data analysis of the dataset using [Fiftyone](https://docs.voxel51.com/) and [Data-Gradients](https://github.com/Deci-AI/data-gradients/)
 3. Try out the [YOLO-World](https://docs.ultralytics.com/models/yolo-world/) Zero-shot open vocabulary detection model on the dataset.
 4. Fine tune an Ultralytics YOLOv8 model on the dataset
