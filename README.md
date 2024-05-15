@@ -66,16 +66,23 @@ From the test image you can see that the pretrained model has a low confidence s
 <!-- #endregion -->
 
 ### B. Image Object Detection with YOLOv8
+In the object detection task, we will finetune a YOLOv8 detection model on a subset of the DSAIL-Porini camera trap dataset and use the model to obtain predictions. We will then characterise our model to see its failure modes and see how to potentially correct them.
 
-In the object detection task, we will finetune a YOLOv8 detection model on a camera trap dataset to obtain predictions and characterise the model.
+Open and run the [object detection notebook](https://github.com/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_detection.ipynb) <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_detection.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> and follow the steps as outlined in the notebook. 
 
-**Steps**
+Here is a summary of what we do in the notebook:
 
-1. Download a pre-annotated subset of the DSAIL-Porini dataset available on [Roboflow](https://universe.roboflow.com/mltowardsobb/dsail-porini-detection-v2).
-2. Perform an exploratory data analysis of the dataset using [Fiftyone](https://docs.voxel51.com/) and [Data-Gradients](https://github.com/Deci-AI/data-gradients/)
-3. Try out the [YOLO-World](https://docs.ultralytics.com/models/yolo-world/) Zero-shot open vocabulary detection model on the dataset.
-4. Fine tune an Ultralytics YOLOv8 model on the dataset
-5. Along the way, there are some exercises which you'll do such as trying out the [`Grounding Dino`](https://github.com/IDEA-Research/GroundingDINO) zero-shot model and annotating a few images to finetune a YOLOv8 model with your own version of the dataset.
+1) Download a pre-annotated subset of the DSAIL-Porini dataset available on [Roboflow](https://universe.roboflow.com/mltowardsobb/dsail-porini-detection-v2).
+2) Perform an exploratory data analysis of the dataset using [Fiftyone](https://docs.voxel51.com/) and [Data-Gradients](https://github.com/Deci-AI/data-gradients/)
+3) Try out the [YOLO-World](https://docs.ultralytics.com/models/yolo-world/) Zero-shot open vocabulary detection model on the dataset.
+4) Fine tune an Ultralytics YOLOv8 model on the dataset
+
+After completing the steps in the notebook, open and run the object detection exercise notebook.
+
+Here is a summary of the exercises you will do in the notebook:
+1) Try out the [`Grounding Dino`](https://github.com/IDEA-Research/GroundingDINO) zero-shot model
+2) Annotate a few other images and add it to the already annotated dataset and retrain the YOLOv8 model with new dataset variants. 
+
    
 ### C. Image Instance Segementation with YOLOv8
 
