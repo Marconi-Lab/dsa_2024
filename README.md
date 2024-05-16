@@ -77,7 +77,7 @@ Here is a summary of what we do in the notebook:
 3) Try out the [YOLO-World](https://docs.ultralytics.com/models/yolo-world/) Zero-shot open vocabulary detection model on the dataset.
 4) Fine tune an Ultralytics YOLOv8 model on the dataset
 
-After completing the steps in the notebook, open and run the object detection exercise notebook.
+After completing the steps in the walkthrough notebook, open and run the [object detection exercise notebook](https://github.com/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_detection_exercises.ipynb) <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_detection_exercises.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> .
 
 Here is a summary of the exercises you will do in the notebook:
 1) Try out the [`Grounding Dino`](https://github.com/IDEA-Research/GroundingDINO) zero-shot model
