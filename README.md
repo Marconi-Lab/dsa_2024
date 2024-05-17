@@ -2,6 +2,10 @@
 
 © DSA2024. Apache License 2.0.
 
+Contributors : `Yuri Njathi`, `Victor Ruto`, `Lorna Mugambi`, `Dr. Andrew Katumba`
+
+Reviewers : `Sam Mbatia`
+
 **Introduction**
 
 As a branch of artificial intelligence, computer vision utilizes machine learning and neural networks to guide computers in extracting valuable insights from digital images, videos, and visual data. This capability allows them to offer recommendations or trigger actions when identifying flaws or issues [[1]](https://www.ibm.com/topics/computer-vision).
@@ -111,3 +115,12 @@ For the segmentation task, we will use an open source [xray dataset](https://uni
 **Inspiration**
 
 1. [Deep Learning Indaba intro to JAX](https://github.com/deep-learning-indaba/indaba-pracs-2022/blob/main/practicals/Introduction_to_ML_using_JAX.ipynb)
+
+
+| Name           | GitHub                                            | Affiliation              |
+|----------------|---------------------------------------------------|--------------------------|
+| Yuri Njathi    | [@Yuri-Njathi](https://github.com/Yuri-Njathi)    | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Lorna Mugambi  | [@lornamugambi](https://github.com/lornamugambi)  | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Victor Ruto    | [@vickruto](https://github.com/vickruto)          | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Samuel Mbatia  | [@mbatiasonic](https://github.com/mbatiasonic)    | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
+| Andrew Katumba | [@andrewkatumba](https://github.com/andrewkatumba)| [Marconi Lab](https://marconilab.org/)          |
