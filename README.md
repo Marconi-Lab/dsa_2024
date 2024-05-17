@@ -125,3 +125,8 @@ For the segmentation task, we will use an open source [xray dataset](https://uni
 | Victor Ruto    | [@vickruto](https://github.com/vickruto)          | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
 | Samuel Mbatia  | [@mbatiasonic](https://github.com/mbatiasonic)    | [DeKUT-DSAIL](https://dekut-dsail.github.io)    |
 | Andrew Katumba | [@andrewkatumba](https://github.com/andrewkatumba)| [Marconi Lab](https://marconilab.org/)          |
+
+
+## Questions
+
+Please ask any questions through this [form](https://forms.gle/cWTba8SHamqhtrP38)
