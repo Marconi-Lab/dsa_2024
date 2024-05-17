@@ -100,7 +100,8 @@ For the segmentation task, we will use an open source [xray dataset](https://uni
 4. Upload your unzipped file ![](https://github.com/Marconi-Lab/dsa_2024/blob/main/assets/Screenshot%20(3).png)
 5. Save you dataset but apply pre-processing and augmentations of your choice from the list provided.
 6. You can export your dataset again or us the raw url of the dataset. ![](https://github.com/Marconi-Lab/dsa_2024/blob/main/assets/Screenshot%20(5).png)
-7. Train YOLOv8-seg model for Segmentation  <a target="_blank" href="https://colab.research.google.com/drive/1xssxI7c9fvIi1K0h_HqeT_U-BsnrMRSL?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+7. Train YOLOv8-seg model for Segmentation  <a target="_blank" href="https://colab.research.google.com/github/Marconi-Lab/dsa_2024/blob/main/dsa2024_yolov8_segmentation.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 8. In the notebook shared above, we will have finetuned 'yolov8-seg' to carry out instance segmentation for normal vs fractured bones.
 9. In the notebook, there are some exercises for you to carry out so as to familiarise yourself more with YOLOv8.
 
